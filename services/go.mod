@@ -3,8 +3,8 @@ module github.com/brporter/gopub/services
 go 1.13
 
 require (
-	github.com/brporter/gopub/models v0.0.0
-	github.com/brporter/gopub/storage v0.0.0
+	github.com/brporter/gopub/models v0.0.1
+	github.com/brporter/gopub/storage v0.0.1
 	github.com/cosiner/argv v0.0.1 // indirect
 	github.com/dgrijalva/jwt-go v3.2.0+incompatible
 	github.com/go-delve/delve v1.4.0 // indirect
@@ -21,7 +21,3 @@ require (
 	gopkg.in/yaml.v2 v2.2.8 // indirect
 )
 
-replace (
-	github.com/brporter/gopub/models v0.0.0 => /Users/brporter/projects/gopub/models
-	github.com/brporter/gopub/storage v0.0.0 => /Users/brporter/projects/gopub/storage
-)
