@@ -30,6 +30,7 @@ func main() {
 		http.Error(w, "invalid", http.StatusBadRequest)
 	}))
 
+	r.Use(services.CORSMiddleware)
 	r.Use(services.AuthMiddleware)
 
 	http.Handle("/", r)
